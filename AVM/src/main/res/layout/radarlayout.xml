@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/car_model"
+        android:layout_width="128dp"
+        android:layout_height="288dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-15dp"
+        android:background="@mipmap/white_car"
+        />
+
+    <ImageView
+        android:id="@+id/camera_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-110dp"
+        android:src="@drawable/camera_front_selector"/>
+
+    <ImageView
+        android:id="@+id/camera_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/camera_back_selector"/>
+
+    <ImageView
+        android:id="@+id/camera_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="-90dp"
+        android:src="@drawable/camera_left_selector"/>
+
+    <ImageView
+        android:id="@+id/camera_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="90dp"
+        android:src="@drawable/camera_right_selector"/>
+
+    <ImageView
+        android:id="@+id/radar_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="-118dp"
+        android:src="@mipmap/fl_grey"/>
+
+    <ImageView
+        android:id="@+id/radar_fml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left|top"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="126dp"
+        android:src="@mipmap/fml_grey"/>
+
+    <ImageView
+        android:id="@+id/radar_fmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left|top"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="126dp"
+        android:src="@mipmap/fmr_grey"/>
+
+    <ImageView
+        android:id="@+id/radar_fr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginStart="346dp"
+        android:layout_marginTop="-114dp"
+        android:src="@mipmap/fr_grey"/>
+
+
+    <ImageView
+        android:id="@+id/radar_bl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="-118dp"
+        android:layout_marginStart="159dp"
+        android:src="@mipmap/bl_grey"
+        />
+
+    <ImageView
+        android:id="@+id/radar_bml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left|bottom"
+        android:layout_marginBottom="126dp"
+        android:layout_marginStart="172dp"
+        android:src="@mipmap/bml_grey"
+        />
+
+    <ImageView
+        android:id="@+id/radar_bmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left|bottom"
+        android:layout_marginBottom="126dp"
+        android:layout_marginStart="285dp"
+        android:src="@mipmap/bmr_grey"
+        />
+
+    <ImageView
+        android:id="@+id/radar_br"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginBottom="-115dp"
+        android:layout_marginStart="346dp"
+        android:src="@mipmap/br_grey"
+        />
+
+    <ImageView
+        android:id="@+id/cam_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:src="@drawable/cam_front_selector"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/cam_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:src="@drawable/cam_back_selector"
+        android:visibility="invisible"
+        android:layout_marginBottom="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/cam_left_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/cam_left_front_selector"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/cam_right_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/cam_right_front_selector"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/cam_left_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="180dp"
+        android:layout_marginStart="90dp"
+        android:src="@drawable/cam_left_back_selector"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/cam_right_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="180dp"
+        android:layout_marginStart="400dp"
+        android:src="@drawable/cam_right_back_selector"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>

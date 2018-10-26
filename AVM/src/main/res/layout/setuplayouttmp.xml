@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/setupView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialogframe"
+                android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/car_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/carModelColor"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/car_color"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorGoldFrame"
+        />
+
+    <TextView
+        android:id="@+id/three_d_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/car_color"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/threeDSurround"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/three_d_select"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorGoldFrame"
+        />
+
+    <Switch
+        android:id="@+id/three_d_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/car_color"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/three_d_select"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"/>
+
+
+    <TextView
+        android:id="@+id/turn_linkage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/three_d_select"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/turnLinkage"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"/>
+
+
+    <Switch
+        android:id="@+id/linkage_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/three_d_select"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@id/turn_linkage"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/turn_linkage"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/colorGoldFrame"
+        />
+
+    <TextView
+        android:id="@+id/restore_factory_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turn_linkage"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/restoreToFactory"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>

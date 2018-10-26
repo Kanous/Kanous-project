@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/setupView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/setup_bg"
+                android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/car_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/carModelColor"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/imageSetup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/car_color"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/imageAdjust"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/three_d_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSetup"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/threeDSurround"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+    <Switch
+        android:id="@+id/three_d_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageSetup"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/three_d_select"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"/>
+
+
+    <TextView
+        android:id="@+id/turn_linkage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/three_d_select"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/turnLinkage"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <Switch
+        android:id="@+id/linkage_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/three_d_select"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@id/turn_linkage"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        />
+
+
+    <TextView
+        android:id="@+id/move_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turn_linkage"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/moveDetect"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <Switch
+        android:id="@+id/move_detect_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/turn_linkage"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@id/move_detect"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        />
+
+
+    <TextView
+        android:id="@+id/people_detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/move_detect"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/peopleDetect"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <Switch
+        android:id="@+id/people_detect_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/move_detect"
+        android:layout_marginEnd="47dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/people_detect"
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track"
+        />
+
+
+    <TextView
+        android:id="@+id/road_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/people_detect"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/roadRate"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/restore_factory_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/road_rate"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/restoreToFactory"
+        android:textColor="@color/colorGray"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AVM</string>
+    <string name="restore">Recover</string>
+    <string name="cancel">Cancel</string>
+    <string name="content2">请谨慎操作。</string>
+    <string name="content1">此操作会清除该功能下您所有的个性化数据</string>
+    <string name="restoreToFactory">Restore to factory setting</string>
+    <string name="brightnessAdjust">Brightness setting</string>
+    <string name="white">White</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="grey">Grey</string>
+    <string name="contrastAdjust">Contrast setting</string>
+    <string name="saturabilityAdjust">Saturability setting</string>
+    <string name="carModelColor">Car model Color</string>
+    <string name="imageAdjust">Image setting</string>
+    <string name="threeDSurround">3D surround</string>
+    <string name="turnLinkage">Turning linkage</string>
+    <string name="moveDetect">Move detect</string>
+    <string name="peopleDetect">People detect</string>
+    <string name="roadRate">Road rate</string>
+</resources>
