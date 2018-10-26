@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="352"
+        android:viewportHeight="210"
+        android:width="352dp"
+        android:height="210dp">
+    <group android:name="default_video_352*210-copy-2"/>
+</vector>

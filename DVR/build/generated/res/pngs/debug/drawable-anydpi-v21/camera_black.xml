@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="40"
+        android:viewportHeight="40"
+        android:width="40dp"
+        android:height="40dp">
+    <group>
+        <group android:name="Mask"/>
+        <group>
+            <group android:translateY="9" android:translateX="8">
+                <path android:fillColor="#FF000000" android:name="Rectangle-14"
+                      android:pathData="M 21,11 Q 23,11 23,13 L 23,27 Q 23,29 21,29 L 2,29 Q 0,29 0,27 L 0,13 Q 0,11 2,11 z"/>
+                <path android:fillColor="#FF000000" android:name="Oval-8"
+                      android:pathData="M 1,7 a 5,5 0 0 1 10,0 a 5,5 0 0 1 -10,0 z"/>
+                <path android:fillColor="#FF000000" android:name="Oval-8-Copy"
+                      android:pathData="M 10,6 a 6,6 0 0 1 12,0 a 6,6 0 0 1 -12,0 z"/>
+                <path android:fillColor="#FF000000" android:name="Combined-Shape-Copy-2"
+                      android:pathData="M19.6291712 18.9433359 L28.0790998 14.16917 C28.6861569 13.8261859 29.4674829 14.0212603 29.8242403 14.6048809 C29.9393215 14.7931427 30 15.0075434 30 15.2259086 L30 24.7742872 C30 25.4512297 29.4291927 26 28.7250661 26 C28.4979302 26 28.274918 25.9416632 28.0790951 25.8310231 L19.6291665 21.0568105 C19.0221109 20.7138239 18.8192062 19.9626615 19.1759661 19.3790423 C19.2859784 19.1990746 19.441976 19.0491002 19.6291712 18.9433359 Z"/>
+            </group>
+        </group>
+    </group>
+</vector>

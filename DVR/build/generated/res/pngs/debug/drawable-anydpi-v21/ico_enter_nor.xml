@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="40"
+        android:viewportHeight="40"
+        android:width="40dp"
+        android:height="40dp">
+    <group android:name="ico_40px" android:translateY="6" android:translateX="12">
+        <path android:fillColor="#BDBDBD" android:strokeWidth="1" android:name="util_list_arrow"
+              android:fillType="nonZero" android:strokeColor="#00000000"
+              android:pathData="M10.5785459 14 L1.57862379 23.5565803 C0.6856382 24.5047983 0.666394735 25.9785443 1.53431734 26.9497554 L1.53431734 26.9497554 C2.28649352 27.7914455 3.57857743 27.8640109 4.42026752 27.1118347 C4.48068589 27.0578419 4.53784005 27.0003039 4.59142736 26.9395256 L16 14 L4.59142736 1.06047443 C3.84490099 0.213769291 2.55333165 0.132558355 1.70662651 0.879084728 C1.64584815 0.932672036 1.58831021 0.989826191 1.53431734 1.05024456 L1.53431734 1.05024456 C0.666394735 2.02145569 0.6856382 3.4952017 1.57862379 4.44341974 L10.5785459 14 Z"/>
+    </group>
+</vector>
