@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/left_item"
+    android:layout_width="140dp"
+    android:layout_height="390dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/lin_record"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gold_select_bg"
+        tools:ignore="InvalidId">
+
+        <ImageView
+            android:id="@+id/im_record"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/normal_record"
+            />
+
+        <TextView
+            android:id="@+id/tv_record"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/record"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_replay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gold_select_bg"
+        tools:ignore="InvalidId">
+
+        <ImageView
+            android:id="@+id/im_replay"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+
+            android:src="@drawable/normal_replay"
+            />
+
+        <TextView
+            android:id="@+id/tv_replay"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/replay"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_setup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gold_select_bg"
+        tools:ignore="InvalidId">
+
+        <ImageView
+            android:id="@+id/im_setup"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/normal_setup"
+            />
+
+        <TextView
+            android:id="@+id/tv_setup"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/setup"
+            android:textColor="@color/colorWhite"
+            android:textSize="26sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

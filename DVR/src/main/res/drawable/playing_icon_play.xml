@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="90"
+        android:viewportHeight="90"
+        android:width="90dp"
+        android:height="90dp">
+    <group android:name="playing_icon_play">
+        <path android:fillColor="#FFFFFF" android:strokeWidth="1" android:name="Combined-Shape"
+              android:strokeColor="#00000000" android:fillType="evenOdd"
+              android:pathData="M68.6465988 47.5862438 L24.5688752 73.4899884 C23.1404314 74.3294611 21.3019219 73.8520056 20.4624493 72.4235618 C20.1916558 71.9627806 20.0488756 71.438023 20.0488756 70.9035621 L20.0488756 19.0958197 C20.0488756 17.4389654 21.3920213 16.0958197 23.0488756 16.0958197 C23.5833408 16.0958197 24.1081025 16.2386022 24.5688863 16.5093999 L68.6466099 42.4133977 C70.0750501 43.2528764 70.5524977 45.091388 69.713019 46.5198282 C69.4541531 46.9603091 69.0870809 47.3273798 68.6465988 47.5862438 Z"/>
+    </group>
+</vector>

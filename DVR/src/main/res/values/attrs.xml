@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="uiAttr">
+        <attr name="themeBackground" format="reference"/>
+        <attr name="itemBackground" format="reference"/>
+        <attr name="recordIcon" format="reference"/>
+        <attr name="replayIcon" format="reference"/>
+        <attr name="setupIcon" format="reference"/>
+        <attr name="textColor" format="color"/>
+        <attr name="stopRecordIcon" format="reference"/>
+        <attr name="startRecordIcon" format="reference"/>
+        <attr name="stopRecordVoiceIcon" format="reference"/>
+        <attr name="recordingIcon" format="reference"/>
+        <attr name="SDCardIcon" format="reference"/>
+        <attr name="selectIcon" format="reference"/>
+        <attr name="alertBackground" format="color"/>
+        <attr name="tipsIcon" format="reference"/>
+    </declare-styleable>
+</resources>

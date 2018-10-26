@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">行车记录仪</string>
+    <string name="stop_record_video">停止录制</string>
+    <string name="stop_record_voice">关闭录音</string>
+    <string name="start_record_video">开始录制</string>
+    <string name="start_record_voice">开启录音</string>
+    <string name="record">行车记录</string>
+    <string name="replay">回放</string>
+    <string name="setup">设置</string>
+    <string name="signal_failed">行车记录信号读取失败</string>
+    <string name="image_size_set">分辨率调节</string>
+    <string name="format_sd">SD卡格式化</string>
+    <string name="restore_factory">恢复出厂设置</string>
+    <string name="time_set">时长设置</string>
+    <string name="recording">正在录像</string>
+    <string name="normal">一般录像回放</string>
+    <string name="emergency">紧急录像回放</string>
+    <string name="photo">照片回放</string>
+    <string name="edit">编辑</string>
+    <string name="_1min">一分钟</string>
+    <string name="_3min">三分钟</string>
+    <string name="_5min">五分钟</string>
+    <string name="_3min_def">3 分钟</string>
+    <string name="cancel">取消</string>
+    <string name="all_select">全选</string>
+    <string name="move">移动</string>
+    <string name="delete">删除</string>
+    <string name="restore">恢复</string>
+    <string name="restore_content">此操作会清除该功能下您所有的个性化数据,\n请谨慎操作。</string>
+    <string name="format_sd_content">SD卡格式化后，录像全部删除无法恢复,是否格式化？</string>
+    <string name="reset">重新设置</string>
+    <string name="delete_all">清空</string>
+    <string name="ischanging">正在切换，请稍后…</string>
+</resources>

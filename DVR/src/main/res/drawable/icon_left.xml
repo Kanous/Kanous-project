@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="50"
+        android:viewportHeight="50"
+        android:width="50dp"
+        android:height="50dp">
+    <group android:name="icon_left">
+        <path android:fillColor="#FFFFFF" android:strokeWidth="1" android:name="Combined-Shape"
+              android:strokeColor="#00000000" android:fillType="evenOdd"
+              android:pathData="M22 19 L42 19 L42 31 L22 31 L22 38 L8 25 L22 12 L22 19 Z"/>
+    </group>
+</vector>

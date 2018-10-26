@@ -1,0 +1,87 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="recordIcon">@drawable/normal_record</item>
+        <item name="replayIcon">@drawable/normal_replay</item>
+        <item name="setupIcon">@drawable/normal_setup</item>
+        <item name="textColor">@color/colorWhite</item>
+        <item name="startRecordIcon">@mipmap/gold_start_record</item>
+        <item name="stopRecordIcon">@mipmap/gold_stop_record</item>
+        <item name="stopRecordVoiceIcon">@mipmap/gold_mute</item>
+        <item name="recordingIcon">@mipmap/gold_demute</item>
+        <item name="SDCardIcon">@mipmap/sdcard_yellow</item>
+        <item name="selectIcon">@drawable/gold_selected</item>
+        <item name="alertBackground">#FFDF66</item>
+        <item name="tipsIcon">@mipmap/stop_yellow</item>
+    </style>
+
+    <style name="AppTheme.gold" parent="AppTheme">
+        <item name="themeBackground">@mipmap/gold_background</item>
+        <item name="itemBackground">@drawable/gold_select_bg</item>
+        <item name="recordIcon">@drawable/gold_record</item>
+        <item name="replayIcon">@drawable/gold_replay</item>
+        <item name="setupIcon">@drawable/gold_setup</item>
+        <item name="textColor">#FFDF66</item>
+        <item name="startRecordIcon">@mipmap/gold_start_record</item>
+        <item name="stopRecordIcon">@mipmap/gold_stop_record</item>
+        <item name="stopRecordVoiceIcon">@mipmap/gold_mute</item>
+        <item name="recordingIcon">@mipmap/gold_demute</item>
+        <item name="SDCardIcon">@mipmap/sdcard_yellow</item>
+        <item name="selectIcon">@drawable/gold_selected</item>
+        <item name="alertBackground">#FFDF66</item>
+        <item name="tipsIcon">@mipmap/stop_yellow</item>
+    </style>
+
+    <style name="AppTheme.red" parent="AppTheme">
+        <item name="themeBackground">@mipmap/red_background</item>
+        <item name="itemBackground">@drawable/red_select_bg</item>
+        <item name="recordIcon">@drawable/red_record</item>
+        <item name="replayIcon">@drawable/red_replay</item>
+        <item name="setupIcon">@drawable/red_setup</item>
+        <item name="textColor">#D64116</item>
+        <item name="startRecordIcon">@mipmap/red_start_record</item>
+        <item name="stopRecordIcon">@mipmap/red_stop_record</item>
+        <item name="stopRecordVoiceIcon">@mipmap/red_mute</item>
+        <item name="recordingIcon">@mipmap/red_demute</item>
+        <item name="SDCardIcon">@mipmap/sdcard_red</item>
+        <item name="selectIcon">@drawable/red_selected</item>
+        <item name="alertBackground">#D64116</item>
+        <item name="tipsIcon">@mipmap/stop_red</item>
+    </style>
+
+    <style name="AppTheme.blue" parent="AppTheme">
+        <item name="themeBackground">@mipmap/blue_background</item>
+        <item name="itemBackground">@drawable/blue_select_bg</item>
+        <item name="recordIcon">@drawable/blue_record</item>
+        <item name="replayIcon">@drawable/blue_replay</item>
+        <item name="setupIcon">@drawable/blue_setup</item>
+        <item name="textColor">#1679FF</item>
+        <item name="startRecordIcon">@mipmap/blue_start_record</item>
+        <item name="stopRecordIcon">@mipmap/blue_stop_record</item>
+        <item name="stopRecordVoiceIcon">@mipmap/blue_mute</item>
+        <item name="recordingIcon">@mipmap/blue_demute</item>
+        <item name="SDCardIcon">@mipmap/sdcard_blue</item>
+        <item name="selectIcon">@drawable/blue_selected</item>
+        <item name="alertBackground">#1679FF</item>
+        <item name="tipsIcon">@mipmap/stop_blue</item>
+    </style>
+
+    <style name="AlertDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+    </style>
+
+    <style name="dialog_anim">
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+
+</resources>

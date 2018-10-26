@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="68"
+        android:viewportHeight="68"
+        android:width="68dp"
+        android:height="68dp">
+    <group android:name="bt/back-b">
+        <path android:fillColor="#FFFFFF" android:strokeWidth="1" android:name="Path"
+              android:strokeColor="#00000000" android:fillType="nonZero"
+              android:pathData="M29.9018132 34 L41.7849217 46.9312047 C42.4796209 47.6871767 42.5044516 48.8415825 41.8429011 49.6267267 L41.8429011 49.6267267 C41.2793605 50.2955505 40.2803318 50.3808994 39.611508 49.8173588 C39.5608669 49.7746894 39.5129522 49.7288855 39.468046 49.680217 L25 34 L39.3967592 18.3970424 C39.9961898 17.7473899 41.0087718 17.706677 41.6584243 18.3061077 C41.72557 18.3680626 41.7872877 18.4356531 41.8429011 18.5081384 L41.8429011 18.5081384 C42.5103695 19.3781027 42.4501194 20.6033335 41.7005176 21.4036141 L29.9018132 34 Z"/>
+    </group>
+</vector>
